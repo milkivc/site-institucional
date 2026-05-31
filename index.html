@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- SEO & Identidade Institucional -->
+    <title>MILK | Arquitetura de Intervenção</title>
+    <meta name="description" content="Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte. Infraestrutura cultural de longa duração. Lisboa, Portugal.">
+    <meta name="author" content="Associação MILK">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <link rel="canonical" href="https://associacaomilk.pt/">
+
+    <!-- Open Graph (partilha em redes sociais e plataformas) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MILK | Arquitetura de Intervenção">
+    <meta property="og:description" content="Movimento de Intervenções e Linguagens Kulturais e Arte. Infraestrutura cultural de longa duração.">
+    <meta property="og:url" content="https://associacaomilk.pt/">
+    <meta property="og:locale" content="pt_PT">
+
+    <!-- Acessibilidade & Segurança -->
+    <!-- lang declarado no html | WCAG 2.1 AA | Sem cookies de rastreio -->
+
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <!-- Estilo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LINHAS DE FUNDO CINEMÁTICAS -->
+    <svg id="background-lines"
+         viewBox="0 0 100 1000"
+         preserveAspectRatio="none"
+         aria-hidden="true"
+         focusable="false">
+        <path class="cinematic-line" id="line1" d="M20,-10 Q30,100 20,200 T20,400 T20,600 T20,800 T20,1100" />
+        <path class="cinematic-line" id="line2" d="M50,-10 Q60,150 50,300 T50,600 T50,900 T50,1100" />
+        <path class="cinematic-line" id="line3" d="M80,-10 Q70,200 80,400 T80,800 T80,1100" />
+    </svg>
+
+    <!-- SKIP LINK — Acessibilidade WCAG 2.4.1 -->
+    <a class="skip-link" href="#conteudo-principal">Saltar para o conteúdo</a>
+
+    <!-- NAVEGAÇÃO FIXA -->
+    <nav class="fixed-nav" aria-label="Navegação principal">
+        <a href="#arquitetura">01. Arquitetura</a>
+        <a href="#infraestruturas">02. Infraestruturas</a>
+        <a href="#dispositivos">03. Dispositivos</a>
+    </nav>
+
+    <!-- CABEÇALHO CINEMATOGRÁFICO -->
+    <header class="intro-header" role="banner">
+        <div class="intro-wrapper">
+            <div class="video-container" role="img" aria-label="Imagem cinematográfica de abertura da Associação MILK">
+                <video autoplay muted playsinline loop>
+                    <source src="Firefly-Video.mov" type="video/quicktime">
+                    <source src="Firefly-Video.mp4" type="video/mp4">
+                    <!-- Fallback para browsers sem suporte a vídeo -->
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main id="conteudo-principal">
+
+        <!-- SECÇÃO 001 — ARQUITETURA -->
+        <section id="arquitetura" class="section" aria-labelledby="titulo-arquitetura">
+            <div class="content-grid">
+                <div class="text-block reveal">
+                    <div class="section-label" aria-hidden="true">#001</div>
+                    <h2 id="titulo-arquitetura">Arquitetura da Sensibilidade.</h2>
+                    <p>Organizamos a perceção através do encontro entre o património e a visão contemporânea. A sensibilidade não é ornamento — é método. É a forma como o território é lido antes de ser intervencionado.</p>
+                </div>
+                <div class="media-block reveal">
+                    <img src="imagem1.jpg"
+                         alt="Fragmento territorial: textura de arquivo e presença material — Associação MILK"
+                         width="800" height="550"
+                         loading="lazy"
+                         decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- SECÇÃO 002 — INFRAESTRUTURAS -->
+        <section id="infraestruturas" class="section section--reversed" aria-labelledby="titulo-infraestruturas">
+            <div class="content-grid content-grid--rtl">
+                <div class="text-block reveal">
+                    <div class="section-label" aria-hidden="true">#002</div>
+                    <h2 id="titulo-infraestruturas">Infraestruturas Invisíveis.</h2>
+                    <p>Bases lógicas e matemáticas que sustentam o florescimento da cultura. O que não se vê é o que garante que o que se vê dure. Governança, protocolo, rastreabilidade — estrutura que antecede qualquer superfície.</p>
+                </div>
+                <div class="media-block reveal">
+                    <img src="imagem2.jpg"
+                         alt="Sistema de linhas invisíveis: a gramática oculta que organiza o espaço cultural — Associação MILK"
+                         width="800" height="550"
+                         loading="lazy"
+                         decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- SECÇÃO 003 — DISPOSITIVOS -->
+        <section id="dispositivos" class="section" aria-labelledby="titulo-dispositivos">
+            <div class="content-grid">
+                <div class="text-block reveal">
+                    <div class="section-label" aria-hidden="true">#003</div>
+                    <h2 id="titulo-dispositivos">Dispositivos.</h2>
+                    <p>Instrumentos de intervenção: da precisão da lente aos algoritmos de análise. Os dispositivos MILK não são ferramentas neutras — são posições. Cada um carrega uma intenção, um protocolo e uma ética de uso.</p>
+                </div>
+                <div class="media-block reveal">
+                    <img src="imagem3.jpg"
+                         alt="Dispositivo de leitura territorial: sobreposição de camadas de dados e presença humana — Associação MILK"
+                         width="800" height="550"
+                         loading="lazy"
+                         decoding="async">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ INSTITUCIONAL -->
+    <footer class="info-footer" role="contentinfo">
+        <div class="info-block reveal">
+            <h2 class="footer-brand">ASSOCIAÇÃO — MILK</h2>
+            <p class="footer-tagline">Movimento de Intervenções e Linguagens <strong>K</strong>ulturais e Arte</p>
+            <div class="info-grid">
+                <div class="info-group">
+                    <span class="info-head">NIPC</span>
+                    <span class="info-content">518 706 451</span>
+                </div>
+                <div class="info-group">
+                    <span class="info-head">ENDEREÇO</span>
+                    <address class="info-content">Rua Carlos da Maia, 44<br>Lisboa — Portugal</address>
+                </div>
+                <div class="info-group">
+                    <span class="info-head">EMAIL</span>
+                    <span class="info-content">
+                        <a href="mailto:milk@associacaomilk.pt" aria-label="Enviar email para a Associação MILK">milk@associacaomilk.pt</a>
+                    </span>
+                </div>
+                <div class="info-group">
+                    <span class="info-head">MÓVEL</span>
+                    <span class="info-content">
+                        <a href="tel:+351960115151" aria-label="Ligar para a Associação MILK">+351 960 115 151</a>
+                    </span>
+                </div>
+            </div>
+            <p class="footer-legal">
+                <small>© <span id="ano-atual"></span> Associação MILK. Licença <a href="https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12" target="_blank" rel="noopener noreferrer">EUPL 1.2</a>. NIPC 518 706 451.</small>
+            </p>
+        </div>
+    </footer>
+
+    <!-- MOTOR CINÉTICO -->
+    <script src="script.js"></script>
+    <!-- Ano dinâmico no rodapé -->
+    <script>document.getElementById('ano-atual').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
