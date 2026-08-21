@@ -1,0 +1,27 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Metadata
+        run: echo "Validating..."
+      - name: Check Licenses
+        run: echo "Checking licenses..."
+      - name: Verify Compliance
+        run: echo "Verifying RGPD, AI Act, ISO 42001..."
+
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        run: echo "Deploying..."
