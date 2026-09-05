@@ -29,6 +29,13 @@ site-institucional/
 Deploy directo em servidor Apache via `ptservidor.pt`.  
 O ficheiro `.htaccess` é activado automaticamente pelo Apache — sem configuração adicional.
 
+## Registo institucional e citação
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22412484.svg)](https://doi.org/10.5281/zenodo.22412484)
+
+- Registo institucional, todas as versões: [10.5281/zenodo.22412484](https://doi.org/10.5281/zenodo.22412484)
+- Versão 1.0.0: [10.5281/zenodo.22412485](https://doi.org/10.5281/zenodo.22412485)
+
 ## Contacto
 
 🌐 [associacaomilk.pt](https://associacaomilk.pt)  
